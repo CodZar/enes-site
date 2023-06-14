@@ -19,9 +19,7 @@ export default function Home() {
   <meta name="theme-color" content="#FFFFFF" />
   {/* Include this to make the og:image larger */}
   <meta name="twitter:card" content="summary_large_image" />
-</>
     
-    <>
       <div className="bg-neutral-800/10 shadow-xl rounded-lg w-full h-auto mt-6">
           <div className="relative">
             <div className="flex flex-col lg:flex-row justify-between w-full p-6 px-8 items-center h-full">
