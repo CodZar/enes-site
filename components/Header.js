@@ -1,14 +1,12 @@
 
 const items = [
-    { icon: 'fab fa-youtube', link: 'https://youtube.com/UmutBayraktarYT' },
-    { icon: 'fab fa-discord', link: 'https://discord.com/users/615029465726320654' }
+    { icon: 'fab fa-youtube', link: 'https://youtube.com/@enes94832' },
+    { icon: 'fab fa-discord', link: 'https://discord.com/users/1020608876598530088' }
   ]
 
 const navItems = [
     { icon: 'fal fa-home', active: 'fa fa-home', label: 'Home', href: '/' },
-    { icon: 'fal fa-compass', active: 'fa fa-compass', label: 'Projects', href: '/projects' },
-    { icon: 'fal fa-phone', active: 'fa fa-phone', label: 'Contact', href: '/contact' },
-    { icon: 'fal fa-rss', active: 'fa fa-rss', label: 'Blogs', href: 'https://blog.umut.live' }
+    { icon: 'fal fa-compass', active: 'fa fa-compass', label: 'Projects', href: '/projects' }
 ]
 
 import Link from 'next/link';
