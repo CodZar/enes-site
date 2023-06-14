@@ -2,7 +2,7 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/1067082456760602634/1118447231725473862/Dark_Community.png",
+      image: "https://media.discordapp.net/attachments/1067082456760602634/1118450219357589595/IMG_5212.gif",
       name: "Dark Community",
       description: "Arkadaşlarınızla, insanlarla vakit geçirip oyun oynayabileceğiniz, sohbet edip arkadaş edinebileceğiniz bir Roblox Topluluğuna gelmeye ne dersiniz.",
       link: "https://discord.gg/XDrbvp9ERm",
