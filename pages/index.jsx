@@ -20,7 +20,7 @@ export default function Home() {
                 </p>
                   <Tippy content={`Online`} animation="shift-away" arrow={false}>
                     <span className={`ml-2 text-online px-2 py-1 font-normal rounded-md text-sm`}>
-                          <i className={`fa fa-circle text-online mr-2`} />Do Not Disturb
+                          <i className={`fa fa-circle text-disturb mr-2`} />Do Not Disturb
                     </span>
                   </Tippy>
             
@@ -33,7 +33,7 @@ Hello, I'm Shield. I've been using discord for 2 years, in these 2 years I learn
                 <img alt="umutbayraktar" src={`https://media.discordapp.net/attachments/1067082456760602634/1118446155186049124/IMG_5210.webp`} width="160" height="160" className={`bg-neutral-700 w-[160px] h-[160px] rounded-full`} />
                 <div className={`bg-[#040404] rounded-full px-[4px] py-[1px] flex items-center absolute bottom-0 right-4`}>
                   <Tippy content="Do Not Disturb" animation="shift-away" arrow={false}>
-                    <i className={`fad fa-circle text-2xl text-online`} />
+                    <i className={`fad fa-circle text-2xl text-disturb`} />
                   </Tippy>
                 </div>
               </div>
