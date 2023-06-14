@@ -18,7 +18,7 @@ export default function Home() {
   <meta property="og:description" content="Shield adlı Discord kullanıcısı hakkında bilgi için bu siteyi gezebilirsin." />
   <meta name="theme-color" content="#FFFFFF" />
   {/* Include this to make the og:image larger */}
-  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:card" content="summary_small_image" />
     
       <div className="bg-neutral-800/10 shadow-xl rounded-lg w-full h-auto mt-6">
           <div className="relative">
