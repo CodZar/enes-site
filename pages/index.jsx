@@ -7,6 +7,43 @@ import Tippy from '@tippyjs/react';
 export default function Home() {
   const { data: _repositories } = swr("/api/repos");
   const repositories = _repositories ? _repositories : null;
+  
+  <>
+  <meta
+    name="google-site-verification"
+    content="UZJRMRIx3F2HbWFyMXihvlPtAhjZutCa4dQ_W_vGpwI"
+  />
+  <meta name="twitter:card" />
+  <meta name="twitter:title" content="Brave Bot" />
+  <meta
+    name="twitter:description"
+    content="Botlist İçin Tam Aradığın Bot! En Kaliteli, En Sade, En Kolay Botlist Sistemi İle Sunucuna Harika Bir Botlist Kurabilirsin!"
+  />
+  <meta
+    name="twitter:image"
+    content="https://media.discordapp.net/attachments/1016799642383552644/1055452742539280545/Brave_Logo.png?width=413&height=413"
+  />
+  <meta property="og:title" content="Brave Bot" />
+  <meta
+    property="og:description"
+    content="Botlist İçin Tam Aradığın Bot! En Kaliteli, En Sade, En Kolay Botlist Sistemi İle Sunucuna Harika Bir Botlist Kurabilirsin!"
+  />
+  <meta
+    property="og:image"
+    content="https://media.discordapp.net/attachments/1016799642383552644/1055452742539280545/Brave_Logo.png?width=413&height=413"
+  />
+  <meta
+    name="description"
+    content="Botlist İçin Tam Aradığın Bot! En Kaliteli, En Sade, En Kolay Botlist Sistemi İle Sunucuna Harika Bir Botlist Kurabilirsin!"
+  />
+  <meta
+    name="keywords"
+    content="botlist, botlist botu, sunucu kurma, eğlence, discord botu, en iyi discord botu, türkçe discord botu, en iyi botlist botu, botlist şablon, botlist sunucu şablonu, botlist sunucusu, brave bot, brave botlist"
+  />
+  <meta name="theme-color" content="#6ab3d3" />
+  <meta charSet="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</>
 
   return (
     <>
