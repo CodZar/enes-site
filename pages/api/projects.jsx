@@ -2,17 +2,17 @@ export default async (req, res) => {
   const data = [
     {
       id: 1,
-      image: "https://media.discordapp.net/attachments/737348411568685066/954502826791428136/codeshare_logo.png",
-      name: "Code Share",
-      description: "Discord türkiyenin en büyük discord bot komutları arşivi ve en büyük discord botu uptime, hostlayıcı websitesi. Code Share veritabanında discord botlarına özgü yüzlerce discord bot komutu bulunmaktadır ve kendi discord botunuzu yaratmanıza yardımcı olur.",
-      link: "https://codeshare.me",
+      image: "https://media.discordapp.net/attachments/1067082456760602634/1118447231725473862/Dark_Community.png",
+      name: "Dark Community",
+      description: "Arkadaşlarınızla, insanlarla vakit geçirip oyun oynayabileceğiniz, sohbet edip arkadaş edinebileceğiniz bir Roblox Topluluğuna gelmeye ne dersiniz.",
+      link: "https://discord.gg/XDrbvp9ERm",
     },
     {
       id: 2,
-      image: "https://media.discordapp.net/attachments/737348411568685066/999563078079361074/YT_AVATAR_NET.jpg",
-      name: "Youtube Channel",
-      description: "I am a professional editor and intermediate software developer. I have been professionally interested in community management and development for 5 years, I have high level knowledge and experience in areas such as community management and social media management. I post videos about discord on my youtube channel.",
-      link: "https://youtube.com/UmutBayraktarYT",
+      image: "https://media.discordapp.net/attachments/1067082456760602634/1118447965812572200/discord-avatar-512-57HWP.gif",
+      name: "Hataza Botlist",
+      description: "Discord'un jet hızında olan botlist sunucusuna botunu eklemek istemezmisin? Botuna 1 sunucu, 600+ üye kazandır!",
+      link: "https://discord.gg/H3hr6gdMJr",
     }
   ];
   res.status(200).json(data);
