@@ -15,7 +15,7 @@ export default function Home() {
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://shield-profile.vercel.app/" />
   <meta property="og:image" content="https://media.discordapp.net/attachments/1067082456760602634/1118446155186049124/IMG_5210.png?width=413&height=413" />
-  <meta property="og:description" content="Shield Kullanıcısının Profili" />
+  <meta property="og:description" content="Shield adlı Discord kullanıcısı hakkında bilgi için bu siteyi gezebilirsin." />
   <meta name="theme-color" content="#FFFFFF" />
   {/* Include this to make the og:image larger */}
   <meta name="twitter:card" content="summary_large_image" />
